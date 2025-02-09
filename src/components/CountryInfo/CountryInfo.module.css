@@ -1,0 +1,27 @@
+.containerInfo {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 300px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 24px;
+    border-left: 1px solid gray;
+}
+
+.message {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+}
+
+.bordersContainer {
+    border: 1px solid gray;
+    padding: 12px;
+}
+
+.bordersContainerItem {
+    padding: 4px;
+}
